@@ -1,0 +1,23 @@
+{
+  "skill_name": "teachme",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我想系统学习 Python 数据分析，零基础。目的是三个月后能用 pandas 和 matplotlib 处理实验数据、画图写报告。从哪里开始？",
+      "expected_output": "创建教学目录（如 python-data-analysis/），生成 MISSION.md（包含用户的学习目标），给出初始 RESOURCES.md 和第一课的学习计划。全程中文。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "教我理解傅里叶变换的原理，不需要写代码，我只想从物理直观上搞懂时域和频域的关系。",
+      "expected_output": "创建教学目录，识别这是知识型（非技能型）学习，设计不需要编程的互动课程计划。MISSION.md 体现用户不想写代码的约束。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "继续上次的学习，上次我们讲到了 Python 的列表和字典。",
+      "expected_output": "识别已有工作区，读取 MISSION.md 和学习记录，在最近发展区内设计后续课程。",
+      "files": []
+    }
+  ]
+}
